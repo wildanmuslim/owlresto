@@ -1,0 +1,580 @@
+﻿<div class="header">
+    <div class="tiles">
+        <div class="header_mac">
+            <a href="#services" class="scroll">
+                <i class="icon1"></i>
+                <h3>Our works</h3>
+            </a>
+        </div>
+        <div class="header_book">
+            <a href="#what" class="scroll">
+                <i class="icon2"></i>
+                <h3>What we do</h3>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="Content/images/logo.png" alt="" /></a>
+        </div>
+        <div class="header_team">
+            <a href="#team" class="scroll">
+                <i class="icon3"></i>
+                <h3>Our team</h3>
+            </a>
+        </div>
+        <div class="header_about">
+            <a href="#about" class="scroll">
+                <i class="icon4"></i>
+                <h3>About us</h3>
+            </a>
+        </div>
+        <div class="header_contact">
+            <a href="#touch" class="scroll">
+                <i class="icon5"></i>
+                <h3>Get in touch</h3>
+            </a>
+        </div>
+        <div class="header_social">
+            <ul>
+                <li><a href=""> <i class="fb1"> </i> </a></li>
+                <li><a href=""> <i class="tw1"> </i> </a></li>
+                <li><a href=""> <i class="g1"> </i> </a></li>
+
+            </ul>
+        </div>
+        <div class="header_arrow">
+            <a href="#arrow" class="scroll"><span> </span></a>
+        </div>
+        <div class="menu_down">
+            <a href="#" id="activator1"></a>
+        </div>
+    </div>
+</div>
+<div class="header_responsive">
+    <div class="tiles_resp">
+        <div class="header_arrow">
+            <a href="#arrow" class="scroll"><span> </span></a>
+        </div>
+        <div class="menu">
+            <a href="#" class="right_bt" id="activator"><img src="Content/images/menu_responsive.png" alt="" /></a>
+            <div class="box" id="box">
+                <div class="box_content_center">
+                    <div class="menu_box_list">
+                        <ul>
+                            <li><a href="#services" class="scroll">Our works</a></li>
+                            <li class="active"><a href="#about" class="scroll">About us</a></li>
+                            <li><a href="#what" class="scroll">What we do</a></li>
+                            <li><a href="#team" class="scroll">Our team</a></li>
+                            <li><a href="#touch" class="scroll">Get in touch</a></li>
+                        </ul>
+                    </div>
+                    <a class="boxclose" id="boxclose"><img src="Content/images/close.png" alt="" /></a>
+                </div>
+            </div>
+            <script type="text/javascript">
+                var $ = jQuery.noConflict();
+                $(function () {
+                    $('#activator').click(function () {
+                        $('#box').animate({ 'top': '0px' }, 500);
+                    });
+                    $('#boxclose').click(function () {
+                        $('#box').animate({ 'top': '-700px' }, 500);
+                    });
+                });
+                $(document).ready(function () {
+
+                    //Hide (Collapse) the toggle containers on load
+                    $(".toggle_container").hide();
+
+                    //Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+                    $(".trigger").click(function () {
+                        $(this).toggleClass("active").next().slideToggle("slow");
+                        return false; //Prevent the browser jump to the link anchor
+                    });
+
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="content_top text-center" id="arrow">
+        <div class="container">
+            <h1>What <span class='m_1'>We </span>do</h1>
+            <p class="head_text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh <span class="m_1">laoreet dolore magna</span> aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tati hendrerit<span class="m_1"> in vulputate velit</span> esse molestie consequat, vel illum dolore 
+            </p>
+            <div class="top_grids">
+                <div class="col-md-3 grid1">
+                    <span> </span>
+                    <div class="top_grid">
+                        <h3>896</h3>
+                        <p>Project work</p>
+                    </div>
+                </div>
+                <div class="col-md-3 grid1">
+                    <span> </span>
+                    <div class="top_grid">
+                        <h3>962</h3>
+                        <p>Facebook likes</p>
+                    </div>
+                </div>
+                <div class="col-md-3 grid1">
+                    <span> </span>
+                    <div class="top_grid">
+                        <h3>159</h3>
+                        <p>Tutorials create</p>
+                    </div>
+                </div>
+                <div class="col-md-3 grid1">
+                    <span> </span>
+                    <div class="top_grid">
+                        <h3>576</h3>
+                        <p>Cofees made</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about_top">
+                <h2 class="m_3">About<span class="m_1"> Us</span></h2>
+                <p class="head_text">
+                    OwL Resto dengan konsep <span class="m_1">Friendly Office</span> adalah sebuah persembahan dari <span class="m_1">The Burung Hantu</span> yang sudah terkenal di Bandung sejak tahun 1916.
+                    Dengan konsep suasana kantor yang unik, OwL Resto menyajikan berbagai macam menu yang sangat unik dan lezat. Mulai dari berbagai macam cemilan tahu, kopi, minuman dingin, dan makanan lainnya yang cocok untuk dimakan sambil bekerja santai.
+                </p>                
+            </div>
+            <div class="about_bottom">
+                <div class="col-md-6 about_left">
+                    <p class="m_2">
+                        Hadir di <span class="m_1">Paris Van Java</span> Glamour level D 11-12A Bandung dan <span class="m_1">CiWalk Mall</span> LG Broadway IB-07.
+                        Wisata Kuliner Bandung belum lengkap sebelum Anda mencoba yang satu ini.
+                    </p>
+                    <a href="#" class="btn1 btn-1 btn-1b">Learn more</a>
+                </div>
+                <div class="col-md-6 about_right">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="Content/images/a1.jpg" class="img-responsive" alt="" /></li>
+                                <li><img src="Content/images/a1.jpg" class="img-responsive" alt="" /></li>
+                                <li><img src="Content/images/a1.jpg" class="img-responsive" alt="" /></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <!-- FlexSlider -->
+                    <script defer src="Scripts/jquery.flexslider.js"></script>
+                    <link rel="stylesheet" href="Content/flexslider.css" type="text/css" media="all" />
+                    <script type="text/javascript">
+                        $(function () {
+                            SyntaxHighlighter.all();
+                        });
+                        $(window).load(function () {
+                            $('.flexslider').flexslider({
+                                animation: "slide",
+                                start: function (slider) {
+                                    $('body').removeClass('loading');
+                                }
+                            });
+                        });
+                    </script>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <div class="about_top">
+                <h2 class="m_3">Ser<span class="m_1">vic</span>es</h2>
+                <p class="head_text">Typi non habent claritatem insitam; est usus<span class="m_1"> legentis in iis qui facit eorum</span></p>
+            </div>
+            <div class="services_box">
+                <div class="service_top">
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s1"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Claritas est</a></h4>
+                                <p>Nam liber tempor cum soluta nobis eleifend</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s2"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Possim as</a></h4>
+                                <p>Mazim placerat facer possim assum. Typi non</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s3"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Facit eorum</a></h4>
+                                <p>Typi non habent claritatem insitam; est usus</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="service_bottom">
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s4"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Legentis in</a></h4>
+                                <p>Est usus legentis in iis qui facit eorum</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s5"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Facer possim</a></h4>
+                                <p>Habent claritatem insitam; est usus</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="service_grid">
+                            <i class="s6"> </i>
+                            <li class="desc">
+                                <h4><a href="#">Plaritas est</a></h4>
+                                <p>Placerat facer possim assum. Typi non habent</p>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="container">
+            <ul id="flexiselDemo3">
+                <li><img src="Content/images/c1.png" class="img-responsive" alt="" /></li>
+                <li><img src="Content/images/c2.png" class="img-responsive" alt="" /></li>
+                <li><img src="Content/images/c3.png" class="img-responsive" alt="" /></li>
+                <li><img src="Content/images/c4.png" class="img-responsive" alt="" /></li>
+            </ul>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 5,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+            <script type="text/javascript" src="Scripts/jquery.flexisel.js"></script>
+            <h3 class="m_4" id="team">Our <span class="m_1">team</span></h3>
+            <div class="team_top text-center">
+                <div class="col-md-3 team_grid">
+                    
+                    
+                </div>
+                <div class="col-md-3 team_grid">
+                    @*<img src="Content/images/pic2.jpg" class="img-responsive" alt="" />*@
+                    <h3><a href='#'>Qori Mauluddiah</a></h3>
+                </div>
+                <div class="col-md-3 team_grid">
+                    @*<img src="Content/images/pic3.jpg" class="img-responsive" alt="" />*@
+                    <h3><a href='#'>Wildan Muslim</a></h3>
+                </div>
+                <div class="col-md-3 team_grid">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="what">
+        <div class="container">
+            <h3 class="m_4">Latest <span class="m_1"> Posts</span></h3>
+            <div class="posts">
+                <div class="col-md-4">
+                    <div class="post_grid">
+                        <div class="view view-fifth">
+                            <a href="#">
+                                <img src="Content/images/p1.jpg" class="img-responsive" alt="" />
+                                <div class="mask">
+                                    <div class="content">
+                                        <a class="popup-with-zoom-anim" href="#small-dialog3"> <div class="info"><img src="Content/images/zoom.png" alt="" /></div></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post_desc">
+                            <h4><a href="#">Duis autem vel eum</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                            <div class="post_bottom">
+                                <ul class="time post_list">
+                                    <i class='time1'> </i>
+                                    <li class="time_desc">September 11</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <ul class="time">
+                                    <i class='bubble'> </i>
+                                    <li class="time_desc">19</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post_grid">
+                        <div class="view view-fifth">
+                            <a href="#">
+                                <img src="Content/images/p2.jpg" class="img-responsive" alt="" />
+                                <div class="mask">
+                                    <div class="content">
+                                        <a class="popup-with-zoom-anim" href="#small-dialog3"> <div class="info"><img src="Content/images/zoom.png" alt="" /></div></a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="post_desc">
+                            <h4><a href="#">Duis autem vel eum</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                            <div class="post_bottom">
+                                <ul class="time post_list">
+                                    <i class='time1'> </i>
+                                    <li class="time_desc">September 11</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <ul class="time">
+                                    <i class='bubble'> </i>
+                                    <li class="time_desc">19</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post_grid">
+                        <div class="view view-fifth">
+                            <a href="#">
+                                <img src="Content/images/p3.jpg" class="img-responsive" alt="" />
+                                <div class="mask">
+                                    <div class="content">
+                                        <a class="popup-with-zoom-anim" href="#small-dialog3"> <div class="info"><img src="Content/images/zoom.png" alt="" /></div></a>
+                                    </div>
+                                </div>
+
+                            </a>
+                        </div>
+                        <div class="post_desc">
+                            <h4><a href="#">Duis autem vel eum</a></h4>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                            <div class="post_bottom">
+                                <ul class="time post_list">
+                                    <i class='time1'> </i>
+                                    <li class="time_desc">September 11</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <ul class="time">
+                                    <i class='bubble'> </i>
+                                    <li class="time_desc">19</li>
+                                    <div class="clearfix"> </div>
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="post_but">
+                <a href="#" class="btn1 btn-1 btn-1b">More posts</a>
+            </div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <div class="container">
+            <h3 class="m_4">Our <span class="m_1"> Skills</span></h3>
+            <div id="canvas">
+                <div class="skill-grids text-center">
+                    <div class="col-md-3">
+                        <div class="skill-grid">
+                            <div class="circle" id="circles-1"></div>
+                            <h3><a href="#">Web design</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="skill-grid">
+                            <div class="circle" id="circles-2"></div>
+                            <h3><a href="#">Branding design</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="skill-grid">
+                            <div class="circle" id="circles-3"></div>
+                            <h3><a href="#">Time management</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="skill-grid">
+                            <div class="circle" id="circles-4"></div>
+                            <h3><a href="#">Creative Cloud</a></h3>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <script type="text/javascript" src="Scripts/circles.js"></script>
+                <script>
+                    var colors = [
+                            ['#eee', '#e83a93'], ['#eee', '#e83a93'], ['#eee', '#e83a93'], ['#eee', '#e83a93']
+                    ];
+                    for (var i = 1; i <= 6; i++) {
+                        var child = document.getElementById('circles-' + i),
+                            percentage = 50 + (i * 10);
+
+                        Circles.create({
+                            id: child.id,
+                            percentage: percentage,
+                            radius: 110,
+                            width: 8,
+                            number: percentage / 10,
+                            text: '%',
+                            colors: colors[i - 1]
+                        });
+                    }
+
+                </script>
+                <!--/-->
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="plans">
+                <h3 class="m_4">Special <span class="m_1"> Offers</span></h3>
+                <section id="pricePlans">
+                    <ul id="plans">
+                        <li class="plan">
+                            <ul class="planContainer">
+                                <li class="title1"><h3>Standart</h3></li>
+                                <li class="price"><p>$39.99</p></li>
+                                <li>
+                                    <ul class="options">
+                                        <li> placerat facer possim </li>
+                                        <li>Mirum est notare </li>
+                                        <li>Claritas est etiam</li>
+                                        <li>soluta nobis eleifend</li>
+                                        <li>Duis autem vel eum</li>
+                                    </ul>
+                                </li>
+                                <li class="button"><a href="#" class="btn1 btn-1 btn-1b">Take a plan</a></li>
+                            </ul>
+                        </li>
+                        <li class="plan">
+                            <ul class="planContainer">
+                                <div class="text">
+                                    <li class="title"><h2 class="bestPlanTitle">The best</h2></li>
+                                    <li class="price price1"><p>$59.99</p></li>
+                                    <li>
+                                        <ul class="options">
+                                            <li>Claritas est etiam</li>
+                                            <li>soluta nobis eleifend</li>
+                                            <li>Duis autem vel eum</li>
+                                            <li> placerat facer possim </li>
+                                            <li>Mirum est notare </li>
+                                        </ul>
+                                    </li>
+                                    <li class="button"><a href="#" class="btn1 bestPlanButton btn-1 btn-1b">Take a plan</a></li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="plan">
+                            <ul class="planContainer">
+                                <li class="title1"><h3>Premium</h3></li>
+                                <li class="price"><p>$89.99</p></li>
+                                <li>
+                                    <ul class="options">
+                                        <li>Mirum est notare </li>
+                                        <li>placerat facer possim </li>
+                                        <li>Claritas est etiam</li>
+                                        <li>soluta nobis eleifend</li>
+                                        <li>Duis autem vel eum</li>
+                                    </ul>
+                                </li>
+                                <li class="button"><a href="#" class="btn1 btn-1 btn-1b">Take a plan</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="subscribe">
+    <div class="container">
+        <h4>Subscribe <span class="m_1">Our </span>newsletter</h4>
+        <p>Typi non habent claritatem insitam; est usus<span class="m_1"> legentis in iis qui facit eorum</span></p>
+        <input type="text" class="textbox" value="enter your email address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'enter your email address';}">
+        <label class="btn1 btn3 btn-1 btn-1b"><input type="submit" value="Subscribe now"></label>
+    </div>
+</div>
+</div>
+<div class="contact" id="touch">
+    <div class="container">
+        <h4>Get in <span class="m_1">touch</span></h4>
+        <p>Typi non habent claritatem insitam; est usus<span class="m_1"> legentis in iis qui facit eorum</span></p>
+        <div class="contact_top">
+            <div class="col-md-6 contact_left">
+                <form method="post" action="contact-post.html">
+                    <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                    <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                    <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+                </form>
+            </div>
+            <div class="col-md-6 contact_right">
+                <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="contact_but">
+            <label class="btn1 btn4 btn-1 btn-1b"><input type="submit" value="Submit"></label>
+        </div>
+        <div class="social">
+            <ul>
+                <li><a href=""> <i class="fb"> </i> </a></li>
+                <li><a href=""> <i class="tw"> </i> </a></li>
+                <li><a href=""> <i class="db"> </i> </a></li>
+            </ul>
+        </div>
+        <p class="copy">&copy; 2014 Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
+    </div>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
